@@ -3,4 +3,4 @@ This project is used to help align the thermal images and original images, which
 1. Extract human contour by YOLO v8
 2. Simple human contour
 3. Align contours by multi-scale search and Template matching until get the Best Normalized cross-correlation index
-4. If the Best Normalized cross-correlation index is less than 0.5, align the images by multi-scale search and Template matching until get the Best  Structural Similarity Index (SSIM)
+4. If the Best Normalized cross-correlation index is less than 0.2, align the images by multi-scale search and Template matching until get the Best  Structural Similarity Index (SSIM)
